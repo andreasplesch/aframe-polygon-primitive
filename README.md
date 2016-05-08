@@ -1,6 +1,6 @@
-## aframe-polygon-primitives
+## aframe-polygon-primitive
 
-A <a-polygon> primitive for [A-Frame](https://aframe.io). This primitive produces a polygon the x-z plane. It depends on the faceset component.
+An a-polygon primitive for [A-Frame](https://aframe.io). This primitive produces a polygon the x-z plane. The primitive depends on the faceset component.
 The points of the polygon are located on the unit circle. The first point is at 1, 0, 0.
 
 ### Attributes

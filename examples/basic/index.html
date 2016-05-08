@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <script src="../build.js"></script>
+</head>
+<body>
+
+<a-scene> 
+
+  <a-assets>
+    <img id="my-texture" src="macaca_nigra_self-portrait.jpg">
+  </a-assets>
+  
+  <a-entity rotation='0 0 0' position='0 0.5 3'>
+    <a-entity camera look-controls wasd-controls='fly: true' ></a-entity>
+  </a-entity>
+  
+  <a-entity light="type: directional; color: #FFF; intensity: 0.9" position="-100 100 100"></a-entity>
+  <a-entity light="type: directional; color: #FFF; intensity: 0.9" position="100 100 100"></a-entity>
+  <a-entity light="type: directional; color: #FFF; intensity: 0.5" position="0 -100 0"></a-entity>
+  
+	<a-polygon rotation='90 0 0' color='green' position='2 0 0'></a-polygon>
+  <a-polygon sides='5' color='red' rotation='90 0 0'></a-polygon>
+  <a-polygon sides='6' color='blue' rotation='90 0 0' position='-2 0 0'></a-polygon>
+  <a-polygon sides='8' color='lime' rotation='90 0 0' position='0 2 0'></a-polygon>
+  
+  <a-sky color="#FFEED0"></a-sky>
+</a-scene>
+</body>
+</html>
+
